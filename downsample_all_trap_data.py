@@ -6,9 +6,8 @@ def downsample_all_trap_data(data, factor):
     """
     downsample all data associated with the trap and update sampling period
     value.  Most appropriately called right after opening the data.  Leaves
-    fluorescence data alone.  Also only changes for 2 traps (A, B, ignores
-    possiblility of C).
-    111202 mjc
+    fluorescence data alone.  Also only changes for 2 traps (A, B)
+
     """
     data = copy.copy(data)  # MATLAB passes structs by value
     data.sampperiod = data.sampperiod * factor
