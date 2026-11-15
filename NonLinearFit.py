@@ -11,8 +11,6 @@ def NonLinearFit(f, spec, specFunc, init):
     Ptheory is defined by specFunc and must be defined as specFunc(f, [fc,
     D]).  init are the inital guesses for fc and D, [fc, D].
 
-    Jeff Moffitt
-    8/5/06
     """
     spec = np.asarray(spec, dtype=float)
     f = np.asarray(f, dtype=float)
