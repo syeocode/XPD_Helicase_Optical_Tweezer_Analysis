@@ -6,8 +6,6 @@ Inst., 75, 594 (2004).  It fits a lorentzian to a positive frequency
 power spectra, returning the diffusion constant and the corner frequency
 and the uncertainty in each of these.
 
-Jeffrey Moffitt
-Corrected chi 2/4/06
 """
 import numpy as np
 
