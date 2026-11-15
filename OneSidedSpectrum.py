@@ -3,8 +3,6 @@ OneSidedSpectrum(timeSeries, fsamp, window) produces a properly
 normalized power spectrum , P(f), of timeSeries, sampled at fsamp, using the
 window function given by the user.
 
-Jeffrey Moffitt
-November 15, 2004
 """
 import numpy as np
 
