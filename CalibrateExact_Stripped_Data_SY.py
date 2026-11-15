@@ -9,7 +9,6 @@ CalibrateStrippedWrapped.
 
 basic calibration routine that just generates the data, nothing else, for
 a single set of data
-090514 mjc
 """
 from datetime import datetime, date
 import numpy as np
