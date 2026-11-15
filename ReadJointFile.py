@@ -5,17 +5,7 @@ Direct usage example: data = ReadJointFile(rawDataPath + '170328\\', '170328_073
 
 Read both fleezers and old trap files. Modified from ReadMattFile_v8.
 Added ot field to data. Should not affect any fleezer data.
-150429 kw
 
-function to read Matt's data files with headers.
-090218 mjc
-
-added ability to read trap position files
-101025 mjc
-
-All files are big-endian ('ieee-be'), as in the MATLAB version.
-`startpath` is joined to `rootfile` by plain string concatenation, exactly
-like MATLAB, so startpath should end with a path separator.
 """
 import numpy as np
 from matlab_helpers import Struct
