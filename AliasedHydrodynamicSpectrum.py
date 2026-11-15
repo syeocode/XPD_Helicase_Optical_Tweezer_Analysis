@@ -11,10 +11,6 @@ def AliasedHydrodynamicSpectrum(f, para, fsamp, n):
     inherent aliasing produced by sampling at fsamp.  Note that no
     anti-aliasing filtering is assumed.
     Based on K. Berg-Sorensen, H. Flyvbjerg. Rev Sci Inst, 75 (2004)
-
-    Jeffrey Moffitt
-    January 24, 2006
-    jmoffitt@berkeley.edu
     """
     f = np.asarray(f, dtype=float)
     spec = 0 * f  # Kludge so that spec has the same shape as f
