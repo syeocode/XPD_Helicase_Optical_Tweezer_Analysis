@@ -2,13 +2,6 @@
 AverageSpectrum(timeSeries, fsamp, numWindows, window) produces a properly
 normalized power spectrum , P(f), of timeSeries, sampled at fsamp, using the
 window function given by the user, and averaged over numWindows of windows.
-
-Jeffrey Moffitt
-November 15, 2004
-
-Modified to allow smoothing of data: simple smoothing of outlier data
-points
-081215, mjc
 """
 import numpy as np
 from OneSidedSpectrum import OneSidedSpectrum
